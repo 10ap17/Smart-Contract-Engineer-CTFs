@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity 0.8.20;
 contract SevenEth {
     function play() external payable {
         require(msg.value == 1 ether, "not 1 ether");
